@@ -2190,7 +2190,7 @@
 	    text-align: left;
 	    width: 80%;
 	    margin: 0px 10% 0px;
-	    border: 1px grey solid;
+	    border-bottom: 1px grey solid;
 	}
 	
 	table.cv td {
