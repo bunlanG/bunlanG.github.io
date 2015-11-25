@@ -2177,6 +2177,29 @@
 				background-color: #e8edec;
 			}
 
+    /* My style */
+	
+	span.location{
+	    color: rgb(170,170,170);
+	    font-style: italic;
+	    font-weight: bold;
+	}
+	
+	
+	table.cv {
+	    text-align: left;
+	    width: 80%;
+	    margin: 0px 10% 0px;
+	    border: 1px grey solid;
+	}
+	
+	table.cv td {
+	    padding: 0px 2em 0px;
+	    border-top: 1px grey solid;
+	}
+	
+	/* END My style */
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2537,23 +2560,3 @@
 
 	}
 	
-	/* My style */
-	
-	span.location{
-	    color: rgb(170,170,170);
-	    font-style: italic;
-	    font-weight: bold;
-	}
-	
-	
-	table.cv {
-	    text-align: left;
-	    width: 80%;
-	    margin: 0px 10% 0px;
-	    border: 1px grey solid;
-	}
-	
-	table.cv td {
-	    padding: 0px 2em 0px;
-	    border-top: 1px grey solid;
-	}
