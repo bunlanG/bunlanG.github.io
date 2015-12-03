@@ -2198,6 +2198,10 @@
 	    border-top: 1px grey solid;
 	}
 	
+	section#top > div.container {
+	    background-color: rgba(0, 0, 0, 0.5);
+	}
+	
 	/* END My style */
 
 /* Wide */
