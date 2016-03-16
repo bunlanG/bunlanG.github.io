@@ -1,60 +1,15 @@
-<!DOCTYPE HTML>
-<!--
-    Prologue by HTML5 UP
-    html5up.net | @n33co
-    Free for personal and commercial use under the CCA 3.0 license echo (html5up.net/license)
--->
+<?php include("common.php"); ?>
+<?php doctype(); ?>
 <html>
     <head>
-        <title>CV - Ronan GUILBAULT sur github.io</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <?php  head("CV"); ?>
     </head>
     <body>
-        <!-- Header -->
-        <div id="header">
-            <div class="top">
-                <!-- Logo -->
-                <div id="logo">
-                    <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-                    <h1 id="title">Ronan GUILBAULT</h1>
-                    <p>Étudiant en informatique</p>
-                </div>
-                <!-- Nav -->
-                <nav id="nav">
-                    <ul>
-                        <li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Accueil</span></a></li>
-                        <li><a href="portfolio.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-                        <li><a href="aboutme.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">CV</span></a></li>
-                        <li><a href="credits.html" id="credits-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Crédits</span></a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="bottom">
-                <!-- Social Icons -->
-                <ul class="icons">
-                    <li><a href="http://www.github.com/bunlanG" class="icon fa-github"><span class="label">Github</span></a></li>
-                    <li><a href="http://www.bitbucket.com/bunlanG" class="icon fa-bitbucket"><span class="label">Bitbucket</span></a></li>
-                    <li><a href="http://www.viadeo.com/fr/profile/ronan.guilbault" class="icon fa-briefcase"><span class="label">Viadeo</span></a></li>
-                    <li><a href="https://fr.linkedin.com/pub/ronan-guilbault/6a/60b/b78" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                </ul>
-            </div>
-        </div>
+        <?php headerBody(); ?>
 
         <!-- Main -->
         <div id="main">
-            <!-- Intro -->
-            <section id="top" class="one dark cover">
-                <div class="container">
-                    <header>
-                        <h2>CV en ligne</h2>
-                    </header>
-                </div>
-            </section>
+            <?php intro("CV en ligne"); ?>
 
             <section>
                 <h2><span class="icon fa-user"></span> Informations générales <span class="icon fa-user"></span></h2>
@@ -132,23 +87,9 @@
 
         </div>
 
-        <!-- Footer -->
-        <div id="footer">
-            <!-- Copyright -->
-            <ul class="copyright">
-                <li>&copy; Ronan Guilbault, 2015-2016. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>
-                 with <a href="http://html5up.net/prologue">Prologue</a> template</li>
-            </ul>
-        </div>
+        <?php footer(); ?>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/jquery.scrollzer.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
+        <?php scripts(); ?>
 
     </body>
 </html>
