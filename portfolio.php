@@ -5,7 +5,7 @@
         <?php  head("Portfolio"); ?>
     </head>
     <body>
-        <?php headerBody(); ?>
+        <?php headerBody(); 0; ?>
 
         <!-- Main -->
         <div id="main">
@@ -21,6 +21,19 @@
                 <p>MaYoT est codé en Java, et utilise l'environnement graphique Swing.</p>
                 <p>Ce projet est en cours de développement sur mon temps libre.</p>
             </section>
+
+            <section>
+                <header>
+                    <h2>yaw4j : Yet Another Wizard For Java</h2>
+                    <a href="https://github.com/bunlanG/yaw4j" target="_blank">Dépôt Github</a>
+                </header>
+
+                <p><a href="https://github.com/bunlanG/yaw4j target="_blank">yaw4j</a> est une petite bibliothèque Java/Swing permettant de créer des assistants (Wizard).</p>
+                <p>J'ai codé ceci pour mon projet MaYoT, car je ne trouvais pas de bibliothèque à mon goût.</p>
+                <p>Le fonctionnement est inspiré des classes QWizard / QWizardPage de Qt, car j'avais l'habitude de les utiliser pour l'ancienne version, que j'aimais bien.</p>
+                <p>Ce projet est en cours de développement sur mon temps libre.</p>
+            </section>
+
 
         </div>
 
