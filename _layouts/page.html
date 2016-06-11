@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Intro -->
+            <section id="top" class="one dark cover">
+                <div class="container">
+                    <header>
+                        <h2>{{ page.textTitle }}</h2>
+                    </header>
+                </div>
+            </section>
+
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+</html>
