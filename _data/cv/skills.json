@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Java",
+        "level": 3,
+        "summary": "Interface Swing, logiciel Ant",
+        "examples": [
+            "Logiciel de gestion de tournois sportifs (<a href=\"https://github.com/bunlanG/MaYoT\" target=\"_blank\">MaYoT</a>)",
+            "Petit Wizard pour Java (<a href=\"https://github.com/bunlanG/yaw4j\" target=\"_blank\">yaw4j</a>)",
+            "Un petit jeu, projet du module \"POO\", en console (<a href=\"https://bitbucket.org/forbun/projet_java\" target=\"_blank\">dépôt</a>)"
+        ]
+    },
+    {
+        "name": "C / C++",
+        "level": 3,
+        "summary": "Interface Qt",
+        "examples": [
+            "Logiciel de gestion de tournois sportifs (1e version) (<a href=\"https://bitbucket.org/bunlanG/scorelive\" target=\"_blank\">ScoreLive</a>)",
+            "Un binero, projet du module \"C\", en console avec NCURSES (<a href=\"https://bitbucket.org/ForgottenBeast/c_project\" target=\"_blank\">dépôt</a>)"
+        ]
+    },
+    {
+        "name": "Base de données",
+        "level": 2,
+        "summary": "Oracle, MySQL",
+        "examples": [
+            "Projet de \"Base de Données\" : création d'une base de données pour gérer une médiathèque (en cours)"
+        ]
+    },
+    {
+        "name": "Web",
+        "level": 2,
+        "summary": "Front-end et back-end (PHP, MySQL, CakePHP)",
+        "examples": [
+            "Projet de \"PHP\" : création d'un site de vente avec authentification avec CakePHP (en cours)"
+        ]
+    },
+    {
+        "name": "Système",
+        "level": 3,
+        "summary": "Linux (Ubuntu)",
+        "examples": [
+            "SE principal depuis 1 an et demi",
+            "Création d'un serveur virtuel Linux avec VirtualBox :<ul><li>Installation d'un serveur LAMP, de Redmine et de Hudson</li><li>Serveur de test pour le module \"PHP\"</li></ul>"
+        ]
+    },
+    {
+        "name": "Versionnement",
+        "level": 3,
+        "summary": "Git",
+        "examples": [
+            "Tous les projets effectués en Licence Informatique utilisent Git"
+        ]
+    },
+    {
+        "name": "LaTeX",
+        "level": 3,
+        "summary": "Rédaction de document + présentation avec beamer",
+        "examples": [
+            "Les rapports des projets, ainsi que ma prise de cours depuis 1 an et demi"
+        ]
+    },
+    {
+        "name": "Intégration continue",
+        "level": 2,
+        "summary": "Hudson",
+        "examples": [
+            "Mise en place, et utilisation lors du projet de \"POO\""
+        ]
+    },
+    {
+        "name": "Réseau",
+        "level": 2,
+        "summary": "Notions",
+        "examples": [
+            "Conception et mise en place d'un réseau privé",
+            "Paramétrage de routeur CISCO"
+        ]
+    }
+]

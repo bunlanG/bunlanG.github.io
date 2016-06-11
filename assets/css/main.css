@@ -2194,11 +2194,11 @@
         list-style: initial;
     }
 
-    table.cv span.title {
+    table.cv .title {
         font-weight: bold;
     }
 
-    table.cv span.location{
+    table.cv .location{
         color: rgb(170,170,170);
         font-style: italic;
         font-weight: normal;
