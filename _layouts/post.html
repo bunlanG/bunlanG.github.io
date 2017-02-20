@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+
+        <div class="container">
+            <header class="title">
+                <h1>{{ page.title }}</h1>
+                <p class="post-subtitle">
+                    {{ page.textTitle }}
+                </p>
+                <p>
+                    {{ page.date |  date: "%m/%d/%Y" }} <br/>
+
+                    {% for tags in page.tags %}
+                        <span>#{{ tags }}</span>&nbsp;
+                    {% endfor %}
+                </p>
+            </header>
+
+            <!-- Main -->
+            <div class="main">
+                {{ content }}
+            </div>
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+</html>

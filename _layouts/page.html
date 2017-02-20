@@ -4,18 +4,15 @@
     <body>
         {% include header.html %}
 
-        <!-- Main -->
-        <div id="main">
-            <!-- Intro -->
-            <section id="top" class="one dark cover">
-                <div class="container">
-                    <header>
-                        <h2>{{ page.textTitle }}</h2>
-                    </header>
-                </div>
-            </section>
+        <div class="container">
+            <header class="title">
+                <h1>{{ page.textTitle }}</h1>
+            </header>
 
-            {{ content }}
+            <!-- Main -->
+            <div class="main">
+                {{ content }}
+            </div>
         </div>
 
         {% include footer.html %}
