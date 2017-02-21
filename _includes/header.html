@@ -10,12 +10,12 @@
     <div class="navbar navbar-default">
         <div class="container">
             <ul class="nav navbar-nav">
-                <li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa fa-home"></span> Accueil</a></li>
-                <li><a href="portfolio.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa fa-th"></span> Portfolio</a></li>
-                <li><a href="aboutme.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa fa-user"></span> CV</a></li>
+                <li><a href="{{ site.url | append: site.baseurl }}/" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa fa-home"></span> Accueil</a></li>
+                <li><a href="{{ site.url | append: site.baseurl }}/portfolio.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa fa-th"></span> Portfolio</a></li>
+                <li><a href="{{ site.url | append: site.baseurl }}/aboutme.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa fa-user"></span> CV</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="credits.html" id="credits-link" class="skel-layers-ignoreHref"><span class="icon fa fa-envelope"></span> Crédits</a></li>
+                <li><a href="{{ site.url | append: site.baseurl }}/credits.html" id="credits-link" class="skel-layers-ignoreHref"><span class="icon fa fa-envelope"></span> Crédits</a></li>
             </ul>
         </div>
     </div>

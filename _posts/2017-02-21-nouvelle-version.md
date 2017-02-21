@@ -5,8 +5,6 @@ title: Restylage du site
 textTitle: Le renouveau, c'est maintenant
 category: blog
 tags: site
-
-permalink: /blog-2017-02-20-nouvelle-version.html
 ---
 
 Ca y est, le site évolue (enfin) !
