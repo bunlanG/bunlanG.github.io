@@ -15,6 +15,13 @@ Cela fait quelques mois que je n'avais pas touché à mon site. De plus, je trou
 que le style ne me correspondait plus vraiment. Comme j'utilisais alors un template, le
 modifier était plûtot complexe. J'ai donc décidé de tout reprendre à zéro.
 
+{% highlight c++ %}
+void Site::update() {
+    this->version++;
+    this->theme.dark = true;
+}
+{% endhighlight %}
+
 ## Le style
 
 Voici donc le nouveau style du site : un thème sombre (merci d'ailleurs à

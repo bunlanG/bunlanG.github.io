@@ -1,16 +1,21 @@
 .banner {
     background: url(/assets/img/banner.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     width: 100%;
     text-align: center;
     padding: 1em;
 }
 
+ul.nav {
+    margin: 0px;
+}
+
 ul.icons {
     float:none;
     font-size: 130%;
     list-style-type: none;
+    padding: 0px;
 }
 
 ul.icons li.icon {
@@ -37,6 +42,23 @@ ul.icons li.icon {
     padding: 2em 0px;
 }
 
+.article-sample > h2 {
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+.blog-index {
+    background-color: rgba(255,255,255,0.07);
+    border: 1px white solid;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.blog-index h1 {
+    margin: 0px 0px 0.5em;
+    text-align: center;
+}
+
 .post-subtitle {
     font-size: 120%;
     color: #bbb;
@@ -49,4 +71,9 @@ ul.icons li.icon {
 }
 .footer p {
     margin: 0.4em 0px;
+}
+
+/* Fix Darkly */
+pre {
+    color: #fff;
 }
