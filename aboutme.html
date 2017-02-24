@@ -5,19 +5,19 @@ title: CV
 textTitle: CV en ligne
 ---
 <section>
-    <h2><span class="icon fa-user"></span> Informations générales <span class="icon fa-user"></span></h2>
+    <h2><span class="fa fa-user"></span> Informations générales <span class="fa fa-user"></span></h2>
     <p>
     Ronan GUILBAULT<br/>
     23 ans (8 mai 1992)<br/>
-    <span class="icon fa-home"></span> : 15 Route de Poitiers, 86280 Saint-Benoît<br/>
-    <span class="icon fa-mobile"></span> : 06 69 05 08 90<br/>
-    <span class="icon fa-envelope"></span> : ronan.guilbault@etu.univ-poitiers.fr<br/>
-    <span class="icon fa-key"></span> PGP : <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x9B88592B1DAFDE70" target="_blank">0x9b88592b1dafde70</a><br/>
+    <span class="fa fa-home"></span> : 15 Route de Poitiers, 86280 Saint-Benoît<br/>
+    <span class="fa fa-mobile"></span> : 06 69 05 08 90<br/>
+    <span class="fa fa-envelope"></span> : ronan.guilbault@etu.univ-poitiers.fr<br/>
+    <span class="fa fa-key"></span> PGP : <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x9B88592B1DAFDE70" target="_blank">0x9b88592b1dafde70</a><br/>
     </p>
 </section>
 
 <section>
-    <h2><span class="icon fa-graduation-cap"></span> Formation <span class="icon fa-graduation-cap"></span></h2>
+    <h2><span class="fa fa-graduation-cap"></span> Formation <span class="fa fa-graduation-cap"></span></h2>
     <table class="cv">
         {% for entry in site.data.cv.education %}
         <tr>
@@ -31,12 +31,12 @@ textTitle: CV en ligne
 </section>
 
 <section>
-    <h2><span class="icon fa-signal"></span> Compétences <span class="icon fa-signal"></span></h2>
+    <h2><span class="fa fa-signal"></span> Compétences <span class="fa fa-signal"></span></h2>
     <table class="cv">
         {% for skill in site.data.cv.skills %}
         <tr>
             <td>{{ skill.name }}</td>
-            <td class="icon fa-battery-{{ skill.level }} comp-battery-{{ skill.level }}"></td>
+            <td class="fa fa-battery-{{ skill.level }} comp-battery-{{ skill.level }}"></td>
             <td><span class="title">{{ skill.summary }}</span>
             <ul>
                 {% for example in skill.examples %}
@@ -50,7 +50,7 @@ textTitle: CV en ligne
 </section>
 
 <section>
-    <h2><span class="icon fa-industry"></span> Expériences professionnelles <span class="icon fa-industry"></span></h2>
+    <h2><span class="fa fa-industry"></span> Expériences professionnelles <span class="fa fa-industry"></span></h2>
     <table class="cv">
         {% for profession in site.data.cv.professional %}
         <tr>
@@ -72,7 +72,7 @@ textTitle: CV en ligne
 </section>
 
 <section>
-    <h2><span class="icon fa-info"></span> Divers <span class="icon fa-info"></span></h2>
+    <h2><span class="fa fa-info"></span> Divers <span class="fa fa-info"></span></h2>
     <p>
     Fan de sport :<br/>
     - Volley-ball (j'ai été dans l'organisation du Stade Poitevin Volley durant 7 ans (2003-2010))<br/>
