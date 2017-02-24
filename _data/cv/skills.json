@@ -2,7 +2,7 @@
     {
         "name": "Java",
         "level": 3,
-        "summary": "Interface Swing, logiciel Ant",
+        "summary": "Interface Swing, configuration Maven, conception OO",
         "examples": [
             "Logiciel de gestion de tournois sportifs (<a href=\"https://github.com/bunlanG/MaYoT\" target=\"_blank\">MaYoT</a>)",
             "Petit Wizard pour Java (<a href=\"https://github.com/bunlanG/yaw4j\" target=\"_blank\">yaw4j</a>)",
@@ -21,7 +21,7 @@
     {
         "name": "Base de données",
         "level": 2,
-        "summary": "Oracle, MySQL",
+        "summary": "Oracle, MySQL, Notions de Big Data",
         "examples": [
             "Projet de \"Base de Données\" : création d'une base de données pour gérer une médiathèque (en cours)"
         ]
@@ -29,7 +29,7 @@
     {
         "name": "Web",
         "level": 2,
-        "summary": "Front-end et back-end (PHP, MySQL, CakePHP)",
+        "summary": "Full stack (PHP, MySQL, CakePHP)",
         "examples": [
             "Projet de \"PHP\" : création d'un site de vente avec authentification avec CakePHP (en cours)"
         ]
@@ -39,7 +39,7 @@
         "level": 3,
         "summary": "Linux (Ubuntu)",
         "examples": [
-            "SE principal depuis 1 an et demi",
+            "SE principal depuis septembre 2014",
             "Création d'un serveur virtuel Linux avec VirtualBox :<ul><li>Installation d'un serveur LAMP, de Redmine et de Hudson</li><li>Serveur de test pour le module \"PHP\"</li></ul>"
         ]
     },
@@ -48,7 +48,7 @@
         "level": 3,
         "summary": "Git",
         "examples": [
-            "Tous les projets effectués en Licence Informatique utilisent Git"
+            "Tous les projets effectués à l'Unversité utilisent Git"
         ]
     },
     {
@@ -56,7 +56,7 @@
         "level": 3,
         "summary": "Rédaction de document + présentation avec beamer",
         "examples": [
-            "Les rapports des projets, ainsi que ma prise de cours depuis 1 an et demi"
+            "Les rapports des projets, ainsi que ma prise de cours depuis début 2015"
         ]
     },
     {

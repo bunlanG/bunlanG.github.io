@@ -1,16 +1,22 @@
 [
     {
-        "period": "Juin 2014 -<br/>Déc. 2015",
+        "period": "Mai 2016 - <br/> Juil. 2016",
+        "job": "Stage, développeur",
+        "company": "Serli, Chasseneuil-du-Poitou",
+        "list": [
+            "Reprise d'un site référençant les conférence et communautés liés à l'informatique en France (Back-end Java + ElasticSearch, Front-End ReactJS)",
+            "Prototype d'une application de livraison (Back-end Java (Spring Boot), Appli mobile React Native)"
+        ]
+    }
+    ,{
+        "period": "Juin 2014 -<br/>Août 2016",
         "job": "Agent de service",
         "remark": "Remplacements estivaux et durant les vacances universitaires",
         "company": "Onet Services, Poitiers",
         "preList": "Principaux sites :",
         "list": [
-            "EFS Poitiers : 14 sem.",
-            "MSA Poitiers : 15 sem.",
-            "SEFI Poitiers : 3 sem.",
-            "ESI Poitiers : 2 sem.",
-            "DAF Poids Lourds 86 : 6 sem."
+            "EFS Poitiers : 18 sem.",
+            "MSA Poitiers : 21 sem.",
         ]
     },
     {
@@ -24,5 +30,3 @@
         ]
     }
 ]
-
-

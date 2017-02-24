@@ -1,8 +1,13 @@
 [
     {
+        "period": "2016 - 2018",
+        "cursus": "Master Informatique",
+        "school": "Université de Poitiers"
+    },
+    {
         "period": "2013 - 2016",
         "cursus": "Licence Informatique",
-        "remark": "Major L1 et L2",
+        "remark": "Major",
         "school": "Université de Poitiers"
     },
     {
@@ -17,5 +22,3 @@
         "school": "Lycée Camille Guérin, Poitiers"
     }
 ]
-
-
