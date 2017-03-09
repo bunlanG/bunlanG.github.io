@@ -5,6 +5,7 @@ title: Restylage du site
 textTitle: Le renouveau, c'est maintenant
 category: blog
 tags: site
+excerpt_separator: <!-- Read more -->
 ---
 
 Ca y est, le site évolue (enfin) !
@@ -12,6 +13,8 @@ Ca y est, le site évolue (enfin) !
 Cela fait quelques mois que je n'avais pas touché à mon site. De plus, je trouvais
 que le style ne me correspondait plus vraiment. Comme j'utilisais alors un template, le
 modifier était plûtot complexe. J'ai donc décidé de tout reprendre à zéro.
+
+<!-- Read more -->
 
 {% highlight c++ %}
 void Site::update() {

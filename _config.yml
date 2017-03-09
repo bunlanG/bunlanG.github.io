@@ -10,7 +10,7 @@ title: "Ronan Guilbault - Site"
 email: "ronan.guilbault@gmail.com"
 description: "Lorem ipsum dolor sit amet"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""
+url: "http://bunlang.github.io"
 
 
 twitter_username: jekyllrb

@@ -1,0 +1,15 @@
+# Local config
+#
+# Site settings
+title: "Ronan Guilbault - Site"
+email: "ronan.guilbault@gmail.com"
+description: "Lorem ipsum dolor sit amet"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
