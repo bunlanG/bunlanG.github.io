@@ -1,7 +1,8 @@
 # Local config
 #
 # Site settings
-title: "Ronan Guilbault - Site"
+title: "Ronan Guilbault"
+subtitle: "Mon site"
 email: "ronan.guilbault@gmail.com"
 description: "Lorem ipsum dolor sit amet"
 baseurl: "" # the subpath of your site, e.g. /blog

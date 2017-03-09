@@ -3,21 +3,36 @@
     <div class="banner">
         <div class="container">
             <h1>{{ site.title }}</h1>
+            <h4>{{ site.subtitle }}</h4>
             {% include social.html %}
         </div>
     </div>
     <!-- Nav -->
     <div class="navbar navbar-default">
         <div class="container">
-            <ul class="nav navbar-nav">
-                <li><a href="{{ site.url | append: site.baseurl }}/" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa fa-home"></span> Accueil</a></li>
-                <li><a href="{{ site.url | append: site.baseurl }}/portfolio.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa fa-th"></span> Portfolio</a></li>
-                <li><a href="{{ site.url | append: site.baseurl }}/aboutme.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa fa-user"></span> CV</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.url | append: site.baseurl }}/credits.html" id="credits-link" class="skel-layers-ignoreHref"><span class="icon fa fa-envelope"></span> Crédits</a></li>
-                <li><a href="{{ site.url | append: site.baseurl }}/feed/atom.xml" id="feed-link" class="skel-layers-ignoreHref"><span class="icon fa fa-rss"></span> RSS</a></li>
-            </ul>
+            <div class="navbar-header" style="position: relative;">
+                <ul class="nav navbar-nav" style="display:inline-block; margin-left: 0px; margin-right: 0px;">
+                    <li>
+                        <a href="{{ site.url | append: site.baseurl }}/" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa fa-home"></span> Accueil</a>
+                    </li>
+                </ul>
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ site.url | append: site.baseurl }}/portfolio.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa fa-th"></span> Portfolio</a></li>
+                    <li><a href="{{ site.url | append: site.baseurl }}/aboutme.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa fa-user"></span> CV</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ site.url | append: site.baseurl }}/credits.html" id="credits-link" class="skel-layers-ignoreHref"><span class="icon fa fa-envelope"></span> Crédits</a></li>
+                    <li><a href="{{ site.url | append: site.baseurl }}/feed/atom.xml" id="feed-link" class="skel-layers-ignoreHref"><span class="icon fa fa-rss"></span> RSS</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
