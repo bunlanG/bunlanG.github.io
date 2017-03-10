@@ -73,6 +73,19 @@ ul.icons li.icon {
     margin: 0.4em 0px;
 }
 
+section.cv h2 {
+    text-align: center;
+}
+
+.wip {
+    text-align: center;
+    font-style: italic;
+}
+
+span.skill.name {
+    font-size: 150%;
+}
+
 /* Fix Darkly */
 pre {
     color: #fff;

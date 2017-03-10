@@ -6,24 +6,35 @@ textTitle: CV en ligne
 
 permalink: /aboutme
 ---
-<section>
+{% include wip.html %}
+<section class="cv">
     <h2><span class="fa fa-user"></span> Informations générales <span class="fa fa-user"></span></h2>
+
     <p>
-        Ronan GUILBAULT<br/>
-        24 ans (8 mai 1992)<br/>
-        <span class="fa fa-home"></span> : 15 Route de Poitiers, 86280 Saint-Benoît<br/>
-        <span class="fa fa-mobile"></span> : 06 69 05 08 90<br/>
+        Ronan GUILBAULT
+    </p>
+    <p>
+        24 ans (8 mai 1992)
+    </p>
+    <p>
+        <span class="fa fa-home"></span> : 15 Route de Poitiers, 86280 Saint-Benoît
+    </p>
+    <p>
+        <span class="fa fa-mobile"></span> : 06 69 05 08 90
+    </p>
+    <p>
         <span class="fa fa-envelope"></span> : ronan.guilbault@etu.univ-poitiers.fr<br/>
     </p>
 </section>
 
-<section>
+<section class="cv">
     <h2><span class="fa fa-graduation-cap"></span> Formation <span class="fa fa-graduation-cap"></span></h2>
+
     <table class="cv">
         {% for entry in site.data.cv.education %}
         <tr>
-            <td>{{ entry.period }}</td>
-            <td><span class="title">{{ entry.cursus }}</span><br/>
+            <td><span>{{ entry.period }}</span></td>
+            <td><span>{{ entry.cursus }}</span><br/>
             {% if entry.remark %}<span>{{ entry.remark }}</span><br/>{% endif %}
             <span class="location">{{ entry.school }}</span></td>
         </tr>
@@ -31,26 +42,50 @@ permalink: /aboutme
     </table>
 </section>
 
-<section>
+<section class="cv">
     <h2><span class="fa fa-signal"></span> Compétences <span class="fa fa-signal"></span></h2>
-    <table class="cv">
-        {% for skill in site.data.cv.skills %}
-        <tr>
-            <td>{{ skill.name }}</td>
-            <td class="fa fa-battery-{{ skill.level }} comp-battery-{{ skill.level }}"></td>
-            <td><span class="title">{{ skill.summary }}</span>
-            <ul>
-                {% for example in skill.examples %}
-                <li>{{ example }}</li>
-                {% endfor %}
-            </ul>
-            </td>
-        </tr>
-        {% endfor %}
-    </table>
+
+    <div>
+        <div class="row">
+            {% for skill in site.data.cv.skills %}
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <span class="skill name">{{ skill.name }}
+                                </span>
+                            </div>
+                            <div class="col-xs-4 text-right">
+                                <span class="skill name">
+                                    <span class="fa fa-battery-{{ skill.level }} comp-battery-{{ skill.level }}"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-body">
+                        <div>
+                            <span class="title">{{ skill.summary }}</span>
+                        </div>
+                        <div>
+                            <ul>
+                                {% for example in skill.examples %}
+                                <li>{{ example }}</li>
+                                {% endfor %}
+                            </ul>
+                            </td>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
 </section>
 
-<section>
+<section class="cv">
     <h2><span class="fa fa-industry"></span> Expériences professionnelles <span class="fa fa-industry"></span></h2>
     <table class="cv">
         {% for profession in site.data.cv.professional %}
@@ -72,7 +107,7 @@ permalink: /aboutme
     </table>
 </section>
 
-<section>
+<section class="cv">
     <h2><span class="fa fa-info"></span> Divers <span class="fa fa-info"></span></h2>
     <p>
     Fan de sport :<br/>
