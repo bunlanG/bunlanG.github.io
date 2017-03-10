@@ -3,6 +3,8 @@ layout: page
 
 title: Crédits
 textTitle: Crédits
+
+permalink: credits
 ---
 
 Le design du site est fait à l'aide de Bootstrap, et notamment le thème [Darkly](https://bootswatch.com/darkly)
