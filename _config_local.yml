@@ -12,5 +12,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+exclude: [script/, LICENSE, Gemfile, Gemfile.lock, README.md]
 markdown: kramdown
 highlighter: rouge
