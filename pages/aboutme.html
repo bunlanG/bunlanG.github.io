@@ -7,39 +7,48 @@ textTitle: CV en ligne
 permalink: /aboutme
 ---
 {% include wip.html %}
+
+<p class="text-center">
+    Mise à jour : {{ site.data.cv.general.modified | date: "%d/%m/%Y" }}
+</p>
+
 <section class="cv">
-    <h2><span class="fa fa-user"></span> Informations générales <span class="fa fa-user"></span></h2>
+    <h2><span class="fa fa-user"></span> Général <span class="fa fa-user"></span></h2>
 
     <p>
-        Ronan GUILBAULT
+        {{ site.data.cv.general.name }}
     </p>
     <p>
-        24 ans (8 mai 1992)
+        24 ans ({{ site.data.cv.general.birthday | date: "%d/%m/%Y" }})
     </p>
     <p>
-        <span class="fa fa-home"></span> : 15 Route de Poitiers, 86280 Saint-Benoît
+        <span class="fa fa-home"></span> : {{ site.data.cv.general.address }}
     </p>
     <p>
-        <span class="fa fa-mobile"></span> : 06 69 05 08 90
+        <span class="fa fa-mobile"></span> : {{ site.data.cv.general.phone }}
     </p>
     <p>
-        <span class="fa fa-envelope"></span> : ronan.guilbault@etu.univ-poitiers.fr<br/>
+        <span class="fa fa-envelope"></span> : {{ site.data.cv.general.mail }}
     </p>
 </section>
 
 <section class="cv">
     <h2><span class="fa fa-graduation-cap"></span> Formation <span class="fa fa-graduation-cap"></span></h2>
 
-    <table class="cv">
+    <div>
         {% for entry in site.data.cv.education %}
-        <tr>
-            <td><span>{{ entry.period }}</span></td>
-            <td><span>{{ entry.cursus }}</span><br/>
-            {% if entry.remark %}<span>{{ entry.remark }}</span><br/>{% endif %}
-            <span class="location">{{ entry.school }}</span></td>
-        </tr>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="edu period">{{ entry.period }}</span> :
+                <span class="edu cursus">{{ entry.cursus }}</span>
+            </div>
+            <div class="panel-body">
+                {% if entry.remark %}<p>{{ entry.remark }}</p>{% endif %}
+                <p class="edu location">{{ entry.school }}</p>
+            </div>
+        </div>
         {% endfor %}
-    </table>
+    </div>
 </section>
 
 <section class="cv">
@@ -56,18 +65,34 @@ permalink: /aboutme
                                 <span class="skill name">{{ skill.name }}
                                 </span>
                             </div>
-                            <div class="col-xs-4 text-right">
-                                <span class="skill name">
-                                    <span class="fa fa-battery-{{ skill.level }} comp-battery-{{ skill.level }}"></span>
-                                </span>
+                            <div class="col-xs-4 text-right stars
+                            {% if skill.level == 0 %}
+                            text-error
+                            {%  elsif skill.level == 1 %}
+                            text-warning
+                            {%  elsif skill.level == 2 %}
+                            text-success
+                            {%  elsif skill.level == 3 %}
+                            text-info
+                            {%  elsif skill.level == 4 %}
+                            text-primary
+                            {% endif %}
+                            ">
+                            {% for i in (0..4) %}
+                                {% if skill.level >= i %}
+                                <span class="fa fa-star"></span>
+                                {% else %}
+                                <span class="fa fa-star-o"></span>
+                                {% endif %}
+                            {% endfor %}
                             </div>
                         </div>
                     </div>
 
                     <div class="panel-body">
-                        <div>
-                            <span class="title">{{ skill.summary }}</span>
-                        </div>
+                        <p class="skill summary">
+                            {{ skill.summary }}
+                        </p>
                         <div>
                             <ul>
                                 {% for example in skill.examples %}
@@ -87,33 +112,47 @@ permalink: /aboutme
 
 <section class="cv">
     <h2><span class="fa fa-industry"></span> Expériences professionnelles <span class="fa fa-industry"></span></h2>
-    <table class="cv">
+    <div>
         {% for profession in site.data.cv.professional %}
-        <tr>
-            <td>{{ profession.period }}</td>
-            <td><div class="title">{{ profession.job }}</div>
-            {% if profession.remark %}<div>{{ profession.remark }}</div>{% endif %}
-            <div class="location">{{ profession.company }}</div>
-            <br/>
-            {{ profession.preList }}
-            <ul>
-                {% for entry in profession.list %}
-                <li>{{ entry }}</li>
-                {% endfor %}
-            </ul>
-            </td>
-        </tr>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="pro period">{{ profession.period }}</span> :
+                <span class="pro job">{{ profession.job }}</span>
+            </div>
+            {% unless profession.noBody %}
+            <div class="panel-body">
+                {% if profession.remark %}
+                    <p>{{ profession.remark }}</p>
+                {% endif %}
+                {% if profession.company %}
+                    <p class="pro location">{{ profession.company }}</p>
+                {% endif %}
+                <div>
+                    {{ profession.preList }}
+                    <ul>
+                        {% for entry in profession.list %}
+                        <li>{{ entry }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endunless %}
+        </div>
         {% endfor %}
-    </table>
+    </div>
 </section>
 
 <section class="cv">
     <h2><span class="fa fa-info"></span> Divers <span class="fa fa-info"></span></h2>
     <p>
-    Fan de sport :<br/>
-    - Volley-ball (j'ai été dans l'organisation du Stade Poitevin Volley durant 7 ans (2003-2010))<br/>
-    - Cyclisme (La famille suivait, et mon prénom<span class="title"> a été choisi pour un cycliste : Ronan PENSEC)</p>
+    Fan de sport :
+    <ul>
+        <li>Volley-ball (j'ai été dans l'organisation du Stade Poitevin Volley durant 7 ans (2003-2010))</li>
+        <li>Cyclisme (La famille suivait, et mon prénom a été choisi pour un cycliste : Ronan PENSEC)</li>
+    </ul>
+    </p>
+
     <p>Guitariste depuis 9 ans (mai 2008)</p>
-    <p>Je n'ai pas le permis, mais je peux me déplacer à vélo et/ou en bus<br/>
-    (j'ai effectué tous mes trajets ainsi, de 2009 à 2015, maintenant j'utilise plus les transports en commun)</p>
+
+    <p>Je n'ai pas le permis, mais je peux me déplacer à vélo et/ou en bus (j'ai effectué tous mes trajets ainsi, de 2009 à 2015, maintenant j'utilise principalement les transports en commun)</p>
 </section>

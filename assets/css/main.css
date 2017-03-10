@@ -82,8 +82,16 @@ section.cv h2 {
     font-style: italic;
 }
 
-span.skill.name {
+.skill.name, .edu.period, .pro.period {
     font-size: 150%;
+}
+
+.skill.summary, .edu.location, .pro.location {
+    font-style: italic;
+}
+
+div.stars {
+    padding: 5.5px 10px;
 }
 
 /* Fix Darkly */

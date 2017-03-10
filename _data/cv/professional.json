@@ -1,7 +1,7 @@
 [
     {
-        "period": "Mai 2016 - <br/> Juil. 2016",
-        "job": "Stage, développeur",
+        "period": "Mai 2016 - Juil. 2016",
+        "job": "Stage : Développement Web et Mobile",
         "company": "Serli, Chasseneuil-du-Poitou",
         "list": [
             "Reprise d'un site référençant les conférence et communautés liés à l'informatique en France (Back-end Java + ElasticSearch, Front-End ReactJS)",
@@ -9,24 +9,16 @@
         ]
     }
     ,{
-        "period": "Juin 2014 -<br/>Août 2016",
+        "period": "Juin 2014 - Août 2016",
         "job": "Agent de service",
-        "remark": "Remplacements estivaux et durant les vacances universitaires",
         "company": "Onet Services, Poitiers",
-        "preList": "Principaux sites :",
         "list": [
-            "EFS Poitiers : 18 sem.",
-            "MSA Poitiers : 21 sem.",
+            "Remplacements estivaux et durant les vacances universitaires"
         ]
     },
     {
         "period": "2012 - 2013",
-        "job": "Service à la personne - divers",
-        "list": [
-            "Entretien du château de Saint-Benoit (Mme de PROYART)",
-            "Garde d'enfants à domicile",
-            "Entretien d'extérieurs",
-            "Divers travaux dans une maison"
-        ]
+        "job": "Service à la personne occasionnels",
+        "noBody": 1
     }
 ]
