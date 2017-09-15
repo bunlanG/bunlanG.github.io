@@ -1,14 +1,46 @@
 [
     {
+        "period": "Sept 2017 - Sept. 2018",
+        "job": "Alternance : Développeur",
+        "company": "Serli, Chasseneuil-du-Poitou"
+    },
+    {
+        "period": "Juin 2017 - Sept. 2017",
+        "job": "Ingénieur d'étude",
+        "company": "Serli, Chasseneuil-du-Poitou",
+        "list": [
+            "Création d'un service d'optimisation de trajets pour les commerciaux d'une entreprise",
+        ],
+        "technologies": [
+            "Java 8",
+            "Spring Boot",
+            "H2",
+            "J2EE",
+            "SQL Server",
+            "SVN",
+            "Jenkins",
+            "Sonar"
+        ]
+    },
+    {
         "period": "Mai 2016 - Juil. 2016",
         "job": "Stage : Développement Web et Mobile",
         "company": "Serli, Chasseneuil-du-Poitou",
         "list": [
-            "Reprise d'un site référençant les conférence et communautés liés à l'informatique en France (Back-end Java + ElasticSearch, Front-End ReactJS)",
-            "Prototype d'une application de livraison (Back-end Java (Spring Boot), Appli mobile React Native)"
+            "Reprise d'un site référençant les conférence et communautés liés à l'informatique en France",
+            "Prototype d'une application de livraison"
+        ],
+        "technologies": [
+            "Java 8",
+            "ElasticSearch 1.x",
+            "ReactJS",
+            "Bootstrap v3",
+            "Spring Boot",
+            "React Native",
+            "Git"
         ]
-    }
-    ,{
+    },
+    {
         "period": "Juin 2014 - Août 2016",
         "job": "Agent de service",
         "company": "Onet Services, Poitiers",

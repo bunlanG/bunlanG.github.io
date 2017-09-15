@@ -2,53 +2,56 @@
     {
         "name": "Java",
         "level": 3,
-        "summary": "Interface Swing, configuration Maven, conception OO",
+        "summary": "Frameworks Spring Boot et J2EE / Maven",
         "examples": [
+            "Plusieurs projets avec Serli",
             "Logiciel de gestion de tournois sportifs (<a href=\"https://github.com/bunlanG/MaYoT\" target=\"_blank\">MaYoT</a>)",
             "Petit Wizard pour Java (<a href=\"https://github.com/bunlanG/yaw4j\" target=\"_blank\">yaw4j</a>)",
             "Un petit jeu, projet du module \"POO\", en console (<a href=\"https://bitbucket.org/forbun/projet_java\" target=\"_blank\">dépôt</a>)"
         ]
     },
     {
-        "name": "C / C++",
-        "level": 3,
-        "summary": "Interface Qt",
-        "examples": [
-            "Logiciel de gestion de tournois sportifs (1e version) (<a href=\"https://bitbucket.org/bunlanG/scorelive\" target=\"_blank\">ScoreLive</a>)",
-            "Un binero, projet du module \"C\", en console avec NCURSES (<a href=\"https://bitbucket.org/forbun/c_project\" target=\"_blank\">dépôt</a>)"
-        ]
-    },
-    {
         "name": "Base de données",
-        "level": 2,
-        "summary": "Oracle, MySQL, Notions de Big Data",
+        "level": 3,
+        "summary": "Oracle, SQL Server, MySQL, NOSQL : ElasticSearch, Notions de Big Data",
         "examples": [
-            "Projet de \"Base de Données\" : création d'une base de données pour gérer une médiathèque (en cours)"
+            "Plusieurs projets avec Serli (SQL Server, ElasticSearch)",
+            "Projet de \"Base de Données\" : création d'une base de données pour gérer une médiathèque (<a href=\"https://bitbucket.org/forbun/bd_projet\" target=\"_blank\">dépôt</a>)",
+            "Formation sur Talend et Eclipse Birt dans le cadre du cursus"
         ]
     },
     {
         "name": "Web",
-        "level": 2,
-        "summary": "Full stack (PHP, MySQL, CakePHP)",
-        "examples": [
-            "Projet de \"PHP\" : création d'un site de vente avec authentification avec CakePHP (en cours)"
-        ]
-    },
-    {
-        "name": "Système",
         "level": 3,
-        "summary": "Linux (Ubuntu)",
+        "summary": "Framework ReactJS / Full stack PHP (MySQL, CakePHP)",
         "examples": [
-            "SE principal depuis septembre 2014",
-            "Création d'un serveur virtuel Linux avec VirtualBox :<ul><li>Installation d'un serveur LAMP, de Redmine et de Hudson</li><li>Serveur de test pour le module \"PHP\"</li></ul>"
+            "Un projet de Serli utilisait ReactJS",
+            "Projet de \"PHP\" : création d'un site de vente avec CakePHP (<a href=\"https://bitbucket.org/forbun/php_projet\" target=\"_blank\">dépôt</a>)"
         ]
     },
     {
         "name": "Versionnement",
         "level": 3,
-        "summary": "Git",
+        "summary": "Git, Subversion",
         "examples": [
-            "Tous les projets effectués à l'Unversité utilisent Git"
+            "Tous les projets effectués à l'Unversité utilisent Git",
+            "Un projet avec Serli utilisait SVN"
+        ]
+    },
+    {
+        "name": "Système",
+        "level": 3,
+        "summary": "Linux (Ubuntu), Windows",
+        "examples": [
+            "Création d'un serveur virtuel Linux (avec LAMP, Redmine et Hudson)"
+        ]
+    },
+    {
+        "name": "Intégration continue",
+        "level": 3,
+        "summary": "Jenkins",
+        "examples": [
+            "Utilisation lors d'un projet avce Serli"
         ]
     },
     {
@@ -60,11 +63,12 @@
         ]
     },
     {
-        "name": "Intégration continue",
+        "name": "C / C++",
         "level": 2,
-        "summary": "Hudson",
+        "summary": "Interface Qt",
         "examples": [
-            "Mise en place, et utilisation lors du projet de \"POO\""
+            "Logiciel de gestion de tournois sportifs (1e version) (<a href=\"https://bitbucket.org/bunlanG/scorelive\" target=\"_blank\">ScoreLive</a>)",
+            "Un binero, projet du module \"C\", en console avec NCURSES (<a href=\"https://bitbucket.org/forbun/c_project\" target=\"_blank\">dépôt</a>)"
         ]
     },
     {
