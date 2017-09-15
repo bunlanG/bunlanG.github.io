@@ -90,6 +90,11 @@ section.cv h2 {
     font-style: italic;
 }
 
+.pro.tech {
+    text-align: right;
+    font-style: italic;
+}
+
 div.stars {
     padding: 5.5px 10px;
 }

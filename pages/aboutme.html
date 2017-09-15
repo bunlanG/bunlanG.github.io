@@ -15,11 +15,11 @@ permalink: /aboutme
 <section class="cv">
     <h2><span class="fa fa-user"></span> Général <span class="fa fa-user"></span></h2>
 
-    <p>
+    <h3>
         {{ site.data.cv.general.name }}
-    </p>
+    </h3>
     <p>
-        24 ans ({{ site.data.cv.general.birthday | date: "%d/%m/%Y" }})
+        25 ans ({{ site.data.cv.general.birthday | date: "%d/%m/%Y" }})
     </p>
     <p>
         <span class="fa fa-home"></span> : {{ site.data.cv.general.address }}
@@ -28,7 +28,7 @@ permalink: /aboutme
         <span class="fa fa-mobile"></span> : {{ site.data.cv.general.phone }}
     </p>
     <p>
-        <span class="fa fa-envelope"></span> : {{ site.data.cv.general.mail }}
+        <span class="fa fa-envelope"></span> : <a href="mailto:{{ site.data.cv.general.mail }}">{{ site.data.cv.general.mail }}</a>
     </p>
 </section>
 
@@ -46,6 +46,43 @@ permalink: /aboutme
                 {% if entry.remark %}<p>{{ entry.remark }}</p>{% endif %}
                 <p class="edu location">{{ entry.school }}</p>
             </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="cv">
+    <h2><span class="fa fa-industry"></span> Expériences professionnelles <span class="fa fa-industry"></span></h2>
+    <div>
+        {% for profession in site.data.cv.professional %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="pro period">{{ profession.period }}</span> :
+                <span class="pro job">{{ profession.job }}</span>
+            </div>
+            {% unless profession.noBody %}
+            <div class="panel-body">
+                {% if profession.remark %}
+                    <p>{{ profession.remark }}</p>
+                {% endif %}
+                {% if profession.company %}
+                    <p class="pro location">{{ profession.company }}</p>
+                {% endif %}
+                <div>
+                    {{ profession.preList }}
+                    <ul>
+                        {% for entry in profession.list %}
+                        <li>{{ entry }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% if profession.technologies %}
+                <div class="pro tech">
+                    {{ profession.technologies | join: ", " }}
+                </div>
+                {% endif %}
+            </div>
+            {% endunless %}
         </div>
         {% endfor %}
     </div>
@@ -108,38 +145,6 @@ permalink: /aboutme
         </div>
     </div>
 
-</section>
-
-<section class="cv">
-    <h2><span class="fa fa-industry"></span> Expériences professionnelles <span class="fa fa-industry"></span></h2>
-    <div>
-        {% for profession in site.data.cv.professional %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <span class="pro period">{{ profession.period }}</span> :
-                <span class="pro job">{{ profession.job }}</span>
-            </div>
-            {% unless profession.noBody %}
-            <div class="panel-body">
-                {% if profession.remark %}
-                    <p>{{ profession.remark }}</p>
-                {% endif %}
-                {% if profession.company %}
-                    <p class="pro location">{{ profession.company }}</p>
-                {% endif %}
-                <div>
-                    {{ profession.preList }}
-                    <ul>
-                        {% for entry in profession.list %}
-                        <li>{{ entry }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            {% endunless %}
-        </div>
-        {% endfor %}
-    </div>
 </section>
 
 <section class="cv">
