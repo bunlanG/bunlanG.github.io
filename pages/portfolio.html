@@ -7,6 +7,10 @@ textTitle: Portfolio
 permalink: portfolio
 ---
 
+<p class="text-center">
+    Mise à jour : {{ site.data.portfolio.general.modified | date: "%d/%m/%Y" }}
+</p>
+
 <section id="personal" class="portfolio">
     <h2>Projets personnels</h2>
 {% for entry in site.data.portfolio.perso.portfolio %}
