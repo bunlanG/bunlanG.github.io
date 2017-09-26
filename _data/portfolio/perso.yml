@@ -1,0 +1,22 @@
+portfolio:
+  - id: mayot
+    title: "MaYoT : Manage Your Tournament"
+    link:
+      text: Dépôt Github
+      link: https://github.com/bunlanG/MaYoT
+    description: |
+        [MaYoT](https://github.com/bunlanG/MaYoT) est un logiciel de gestion de tournois sportifs.
+        Ceci est la ré-écriture d'un autre projet que j'avais codé en C++/Qt, sous le nom de ScoreLive, entre 2011 et 2013.
+
+        MaYoT est codé en Java, et utilise l'environnement graphique Swing.
+  - id: yaw4j
+    title: "yaw4j : Yet Another Wizard For Java"
+    link:
+      text: Dépôt Github
+      link: https://github.com/bunlanG/yaw4j
+    description: |
+        [yaw4j](https://github.com/bunlanG/yaw4j) est une petite bibliothèque Java/Swing permettant de créer des assistants (Wizard).
+
+        J'ai codé ceci pour mon projet MaYoT, car je ne trouvais pas de bibliothèque à mon goût.
+
+        Le fonctionnement est inspiré des classes QWizard / QWizardPage de Qt, car j'avais l'habitude de les utiliser pour l'ancienne version, que j'aimais bien.

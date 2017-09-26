@@ -1,0 +1,60 @@
+portfolio:
+
+  - title: "Génie Logiciel : Création d'une structure accélératrice"
+    description: |
+      Ce projet, effectué en groupe de 4, consistait à reprendre le code du client, qui servait
+      à tester des structures accélératrices pour du rendu 3D, et à créer une nouvelle structure
+      qui serait hybride.
+
+  - title: "Interface Homme-Machine : Jeu de bataille navale"
+    description: |
+      Ce projet, effectué en groupe de 4 (Choux-Baka), consistait, à partir d'une application
+      purement JavaFX, de la transformer en JavaFX + FXML, et d'utiliser le protocole RMI pour
+      pouvoir jouer sur 2 ordinateurs différents.
+
+  - title: "Base de données : Gestion d'une médiathèque"
+    link:
+      text: Dépôt
+      link: https://bitbucket.org/forbun/bd_projet
+    description: |
+      Ce projet, effectué avec [Quentin Mallet](https://quentinmallet.tk), consistait à construire une base de données
+      permettant de gérer des documents multimédias hétérogènes (CD, DVD, livres, ...).
+
+      Le SGBD utilisé était Oracle.
+
+  - title: "Programmation en PHP : Site de vente avec authentification"
+    link:
+      text: Dépôt
+      link: https://bitbucket.org/forbun/php_projet
+    description: |
+      Ce projet, effectué (encore) avec [Quentin Mallet](https://quentinmallet.tk), consistait à réaliser un mini-site
+      web de vente libre, avec gestion d'un panier et d'une authentification avec plusieurs rôles possibles.
+      Le framework utilisé était CakePHP 2.6.
+
+
+  - title: "Compilation : Langage Logo et tortue"
+    link:
+      text: Dépôt
+      link: https://bitbucket.org/bauti/tlc_projet
+    description: |
+      Ce projet, réalisé avec Matthieu Durand, consistait à implémenter un interpréteur pour un dérivé libre du
+      langage [Logo](https://fr.wikipedia.org/wiki/Logo_(langage)), à l'aide de *flex* et *bison*.
+
+  - title: "Programmation Orienté Objet : The Tower Of Ptarmigan Moor"
+    link:
+      text: Dépôt
+      link: https://bitbucket.org/forbun/projet_java
+    description: |
+      Ce projet, effectué (toujours) avec [Quentin Mallet](https://quentinmallet.tk), consistait à réaliser un jeu
+      en console, en utilisant tous les mécanismes de base de l'OO (classes, interfaces, héritage, ...). Dans ce projet,
+      un peu de RNG a été également utilisé, afin d'avoir un jeu avec une génération procédurale.
+
+  - title: "Programmation en C : Binero"
+    link:
+      text: Dépôt
+      link: https://bitbucket.org/forbun/c_project
+    description: |
+      Ce projet, effectué (toujours !!) avec [Quentin Mallet](https://quentinmallet.tk), consistait à réaliser un
+      [Binero](https://fr.wikipedia.org/wiki/Takuzu), avec un minimum d'interaction en console. Si certains
+      sont allés jusqu'à faire une interface graphique, nous avons utilisé la librairie [ncurses](https://fr.wikipedia.org/wiki/Ncurses)
+      pour réaliser une interface plus poussée, *mais en console*. Nous avions même rajouté de la musique et des animations !
