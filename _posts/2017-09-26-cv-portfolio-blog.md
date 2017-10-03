@@ -15,12 +15,13 @@ Bref, maintenant, pas mal de choses se sont passés.
 
 <!-- Read more -->
 
-![alt text](/assets/img/posts/space-rocket.png){: .center-block }
+{: .responsive-img }
+![...](/assets/img/posts/space-rocket.png)
 
 ## Contenu
 
 A la demande *trèèèèès insistante* de [Quentin Mallet](https://quentinmallet.tk/), j'ai mis à jour
-la partie [Portfolio](/portfolio) avec les projets que j'ai pu effectuer à l'université.
+la partie [Portfolio]({{ site.url | append: site.baseurl }}/portfolio) avec les projets que j'ai pu effectuer à l'université.
 
 D'ailleurs, n'hésitez pas à visiter le site de [Quentin](https://quentinmallet.tk/), c'est un gars bien !
 

@@ -111,3 +111,11 @@ blockquote {
 blockquote > small {
     font-size: 14px;
 }
+
+.responsive-img {
+    text-align: center;
+}
+
+.responsive-img > img {
+    width: 75%;
+}
