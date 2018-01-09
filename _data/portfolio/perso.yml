@@ -3,7 +3,7 @@ portfolio:
     title: "MaYoT : Manage Your Tournament"
     link:
       text: Dépôt Github
-      link: https://github.com/bunlanG/MaYoT
+      link: https://github.com/rguilbault/MaYoT
     description: |
         [MaYoT](https://github.com/bunlanG/MaYoT) est un logiciel de gestion de tournois sportifs.
         Ceci est la ré-écriture d'un autre projet que j'avais codé en C++/Qt, sous le nom de ScoreLive, entre 2011 et 2013.
@@ -13,7 +13,7 @@ portfolio:
     title: "yaw4j : Yet Another Wizard For Java"
     link:
       text: Dépôt Github
-      link: https://github.com/bunlanG/yaw4j
+      link: https://github.com/rguilbault/yaw4j
     description: |
         [yaw4j](https://github.com/bunlanG/yaw4j) est une petite bibliothèque Java/Swing permettant de créer des assistants (Wizard).
 
