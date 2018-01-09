@@ -6,7 +6,7 @@ subtitle: "Mon site"
 email: "ronan.guilbault@gmail.com"
 description: "Lorem ipsum dolor sit amet"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bunlang.github.io"
+url: "http://rguilbault.github.io"
 
 twitter_username: jekyllrb
 github_username:  jekyll
